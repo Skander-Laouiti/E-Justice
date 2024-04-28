@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Delete</class>
- <widget class="QDialog" name="Delete">
+ <class>results</class>
+ <widget class="QDialog" name="results">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1054</width>
-    <height>630</height>
+    <width>881</width>
+    <height>576</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,13 +18,13 @@
     background:url(../../Images_projet/HMR.jpg) ;
 }</string>
   </property>
-  <widget class="QFrame" name="supprimer">
+  <widget class="QFrame" name="UPLD">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>170</y>
-     <width>591</width>
-     <height>261</height>
+     <x>220</x>
+     <y>150</y>
+     <width>441</width>
+     <height>271</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -59,11 +59,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Lsupp">
+   <widget class="QLineEdit" name="Lid_save">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>90</y>
+      <x>130</x>
+      <y>60</y>
       <width>251</width>
       <height>31</height>
      </rect>
@@ -100,11 +100,11 @@ border-bottom:1px solid #717072;
      <string>123456</string>
     </property>
    </widget>
-   <widget class="QLabel" name="id_supp">
+   <widget class="QLabel" name="idsave">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>80</y>
+      <x>60</x>
+      <y>50</y>
       <width>41</width>
       <height>51</height>
      </rect>
@@ -122,11 +122,11 @@ border-bottom:1px solid #717072;
      <string>ID</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="supp_btn">
+   <widget class="QPushButton" name="UPLOAD">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>140</y>
+      <x>120</x>
+      <y>190</y>
       <width>201</width>
       <height>51</height>
      </rect>
@@ -151,13 +151,88 @@ background:#303030;
 }</string>
     </property>
     <property name="text">
-     <string>Delete</string>
+     <string>Upload</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Images_projet/upload.png</normaloff>../../Images_projet/upload.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="L_results">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>130</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:transparent;
+border:none;
+color:white;
+border-bottom:1px solid #717072;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>32767</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Aa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="results_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+    font-family:century gothic;
+    font-size:24px;
+	color:white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Results</string>
     </property>
    </widget>
    <zorder>label_8</zorder>
-   <zorder>id_supp</zorder>
-   <zorder>Lsupp</zorder>
-   <zorder>supp_btn</zorder>
+   <zorder>idsave</zorder>
+   <zorder>Lid_save</zorder>
+   <zorder>UPLOAD</zorder>
+   <zorder>L_results</zorder>
+   <zorder>results_2</zorder>
   </widget>
  </widget>
  <resources/>

@@ -3,7 +3,7 @@
 #include "accuse.h"
 #include <QDialog>
 
-//Test Git
+
 
 namespace Ui {
 class Consult;
@@ -17,16 +17,16 @@ public:
     explicit Consult(QWidget *parent = nullptr);
     ~Consult();
 
-        Accuse A;
-
+       
 
 private slots:
 
 
-        void on_afficher_acc_clicked();
+
 
 private:
     Ui::Consult *ui;
+    Accuse A;
 };
 
-#endif // CONSULT_H
+#endif 

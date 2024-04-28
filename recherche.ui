@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Delete</class>
- <widget class="QDialog" name="Delete">
+ <class>Recherche</class>
+ <widget class="QDialog" name="Recherche">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1054</width>
-    <height>630</height>
+    <width>1116</width>
+    <height>652</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,16 +15,16 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-    background:url(../../Images_projet/HMR.jpg) ;
+    
 }</string>
   </property>
-  <widget class="QFrame" name="supprimer">
+  <widget class="QFrame" name="RECH">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>170</y>
-     <width>591</width>
-     <height>261</height>
+     <x>330</x>
+     <y>450</y>
+     <width>441</width>
+     <height>171</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -53,17 +53,17 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>/QTprojet/smart court.png</pixmap>
+     <pixmap>D:/QTprojet/smart court.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Lsupp">
+   <widget class="QLineEdit" name="Lid_rech">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>90</y>
+      <x>100</x>
+      <y>40</y>
       <width>251</width>
       <height>31</height>
      </rect>
@@ -100,11 +100,11 @@ border-bottom:1px solid #717072;
      <string>123456</string>
     </property>
    </widget>
-   <widget class="QLabel" name="id_supp">
+   <widget class="QLabel" name="idrech">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>80</y>
+      <x>50</x>
+      <y>30</y>
       <width>41</width>
       <height>51</height>
      </rect>
@@ -122,11 +122,11 @@ border-bottom:1px solid #717072;
      <string>ID</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="supp_btn">
+   <widget class="QPushButton" name="getsrch">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>140</y>
+      <x>110</x>
+      <y>90</y>
       <width>201</width>
       <height>51</height>
      </rect>
@@ -151,13 +151,33 @@ background:#303030;
 }</string>
     </property>
     <property name="text">
-     <string>Delete</string>
+     <string>Search</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Images_projet/srch.png</normaloff>../../Images_projet/srch.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>25</height>
+     </size>
     </property>
    </widget>
    <zorder>label_8</zorder>
-   <zorder>id_supp</zorder>
-   <zorder>Lsupp</zorder>
-   <zorder>supp_btn</zorder>
+   <zorder>idrech</zorder>
+   <zorder>Lid_rech</zorder>
+   <zorder>getsrch</zorder>
+  </widget>
+  <widget class="QTableView" name="tablerech">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>21</y>
+     <width>1021</width>
+     <height>381</height>
+    </rect>
+   </property>
   </widget>
  </widget>
  <resources/>

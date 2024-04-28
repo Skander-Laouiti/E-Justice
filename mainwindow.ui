@@ -15,14 +15,14 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-    background:url(C:/Users/MAHOX/OneDrive/Desktop/backg.jpg) ;
+   
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton_15">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>470</x>
       <y>10</y>
       <width>211</width>
       <height>121</height>
@@ -45,22 +45,22 @@ background:#303030;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../../../../clubs &amp; events/icons/2636184.png</normaloff>../../../../../clubs &amp; events/icons/2636184.png</iconset>
+      <normaloff>../../Images_projet/AffLogo.png</normaloff>../../Images_projet/AffLogo.png</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>60</width>
-      <height>60</height>
+      <width>90</width>
+      <height>90</height>
      </size>
     </property>
    </widget>
-   <widget class="QFrame" name="Qframe">
+   <widget class="QFrame" name="Interface">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>210</x>
       <y>100</y>
       <width>731</width>
-      <height>341</height>
+      <height>461</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -117,11 +117,11 @@ background:#303030;
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_4">
+    <widget class="QLineEdit" name="Report">
      <property name="geometry">
       <rect>
        <x>100</x>
-       <y>240</y>
+       <y>360</y>
        <width>251</width>
        <height>31</height>
       </rect>
@@ -158,9 +158,9 @@ border-bottom:1px solid #717072;
     <widget class="QPushButton" name="ADD_ACC">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>110</y>
-       <width>211</width>
+       <x>10</x>
+       <y>120</y>
+       <width>201</width>
        <height>51</height>
       </rect>
      </property>
@@ -187,13 +187,23 @@ background:#303030;
      <property name="text">
       <string>Add Accused</string>
      </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/Add.png</normaloff>../../Images_projet/Add.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
     </widget>
     <widget class="QPushButton" name="DELETE_ACC">
      <property name="geometry">
       <rect>
-       <x>500</x>
-       <y>110</y>
-       <width>211</width>
+       <x>10</x>
+       <y>200</y>
+       <width>201</width>
        <height>51</height>
       </rect>
      </property>
@@ -219,12 +229,16 @@ background:#303030;
      <property name="text">
       <string>Delete Accused</string>
      </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/Delete.png</normaloff>../../Images_projet/Delete.png</iconset>
+     </property>
     </widget>
     <widget class="QPushButton" name="List_ACC">
      <property name="geometry">
       <rect>
-       <x>270</x>
-       <y>110</y>
+       <x>240</x>
+       <y>120</y>
        <width>211</width>
        <height>51</height>
       </rect>
@@ -251,12 +265,22 @@ background:#303030;
      <property name="text">
       <string>List of Accuseds</string>
      </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/Display.png</normaloff>../../Images_projet/Display.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
     </widget>
     <widget class="QPushButton" name="pushButton_16">
      <property name="geometry">
       <rect>
        <x>420</x>
-       <y>240</y>
+       <y>350</y>
        <width>201</width>
        <height>51</height>
       </rect>
@@ -283,8 +307,272 @@ background:#303030;
      <property name="text">
       <string>SEND</string>
      </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/Email.png</normaloff>../../Images_projet/Email.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>68</width>
+       <height>68</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="MODIFY">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>120</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+     </property>
+     <property name="text">
+      <string>Modify Accused</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/Modify.png</normaloff>../../Images_projet/Modify.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QrCode">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>200</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+     </property>
+     <property name="text">
+      <string>Qr Code</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/Qr code.png</normaloff>../../Images_projet/Qr code.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="search">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>200</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+     </property>
+     <property name="text">
+      <string>Search</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/srch.png</normaloff>../../Images_projet/srch.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Sort">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+     </property>
+     <property name="text">
+      <string>Sort</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/tri.png</normaloff>../../Images_projet/tri.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PDF">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>280</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+     </property>
+     <property name="text">
+      <string>PDF</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/pdf.png</normaloff>../../Images_projet/pdf.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RES">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>280</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+     </property>
+     <property name="text">
+      <string>Upload Results</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images_projet/upload.png</normaloff>../../Images_projet/upload.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>28</height>
+      </size>
+     </property>
     </widget>
    </widget>
+   <zorder>Interface</zorder>
+   <zorder>pushButton_15</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

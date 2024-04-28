@@ -4,7 +4,7 @@
 #include <QSqlError>
 #include <QSqlQuery>
 
-//Test Git
+
 
 class Connection
 {QSqlDatabase db;
@@ -14,4 +14,4 @@ public:
     void closeConnection();
 };
 
-#endif // CONNECTION_H
+#endif 

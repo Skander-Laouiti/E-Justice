@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Consult</class>
- <widget class="QDialog" name="Consult">
+ <class>tri</class>
+ <widget class="QDialog" name="tri">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>937</width>
-    <height>557</height>
+    <width>1090</width>
+    <height>625</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,19 +18,14 @@
     background:url(../../Images_projet/HMR.jpg) ;
 }</string>
   </property>
-  <widget class="QTableView" name="tab_aff">
+  <widget class="QTableView" name="tabletri">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>0</y>
-     <width>851</width>
-     <height>551</height>
+     <x>20</x>
+     <y>20</y>
+     <width>1051</width>
+     <height>591</height>
     </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">*{
-    background:url(../../Images_projet/HMR.jpg) ;
-}</string>
    </property>
   </widget>
  </widget>

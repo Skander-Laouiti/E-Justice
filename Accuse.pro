@@ -23,7 +23,12 @@ SOURCES += \
     delete.cpp \
     dialog.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    modify.cpp \
+    qrcode.cpp \
+    recherche.cpp \
+    results.cpp \
+    tri.cpp
 
 HEADERS += \
     accuse.h \
@@ -31,13 +36,23 @@ HEADERS += \
     consult.h \
     delete.h \
     dialog.h \
-    mainwindow.h
+    mainwindow.h \
+    modify.h \
+    qrcode.h \
+    recherche.h \
+    results.h \
+    tri.h
 
 FORMS += \
     consult.ui \
     delete.ui \
     dialog.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    modify.ui \
+    qrcode.ui \
+    recherche.ui \
+    results.ui \
+    tri.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

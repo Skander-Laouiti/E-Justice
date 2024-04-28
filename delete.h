@@ -1,9 +1,10 @@
 #ifndef DELETE_H
 #define DELETE_H
+#include "accuse.h"
 
 #include <QDialog>
 
-//Test Git
+
 
 namespace Ui {
 class Delete;
@@ -22,6 +23,7 @@ private slots:
 
 private:
     Ui::Delete *ui;
+    Accuse A;
 };
 
-#endif // DELETE_H
+#endif 

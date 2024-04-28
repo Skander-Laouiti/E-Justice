@@ -3,6 +3,7 @@
 #include <QString>
 #include <QDate>
 #include <QSqlQueryModel>
+#include <QSqlQuery>
 
 //Test Git
 
@@ -28,7 +29,9 @@ public:
     bool Ajouter();
     QSqlQueryModel* afficher();
     bool supprimer(int);
-
+    bool modifier(int ,QString ,QString ,QString ,QDate ,QString ,QDate);
+    QSqlQueryModel * recherche(int );
+    QSqlQueryModel * tri();
 private:
     int id;
     QString name,lastname,acc_cause,gender;
@@ -37,4 +40,4 @@ private:
 
 };
 
-#endif // ACCUSE_H
+#endif 

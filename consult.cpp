@@ -5,12 +5,15 @@
 #include <QDialog>
 #include <QFrame>
 #include <QSqlQueryModel>
-//Test Git
+
+
+
 Consult::Consult(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Consult)
 {
     ui->setupUi(this);
+    ui->tab_aff->setModel(A.afficher());
 
 }
 
@@ -21,17 +24,3 @@ Consult::~Consult()
 
 
 
-void Consult::on_afficher_acc_clicked()
-{
-    bool test=A.afficher();
-    QMessageBox msgBox;
-
-    if(test)
-    {
-        msgBox.setText("Affichage avec success");
-       //ui->tab_acc->setModel(A.afficher());
-    }
-    else
-        msgBox.setText("Echec de l'affichage ");
-        msgBox.exec();
-}
